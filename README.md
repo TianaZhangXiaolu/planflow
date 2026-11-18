@@ -69,3 +69,12 @@ The relational schema uses foreign keys to maintain data integrity and define ow
 
 See the [Database ER Diagram](docs/database-erd.md) for the complete schema and relationships.
 
+
+
+## API Documentation
+
+PlanFlow provides RESTful APIs for authentication, project management, and task management.
+
+The API uses JWT authentication to protect endpoints and enforce user-specific data access.
+
+See the [API Documentation](docs/api-documentation.md) for endpoint details, HTTP methods, and request examples.
