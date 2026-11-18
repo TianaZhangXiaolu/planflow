@@ -59,3 +59,13 @@ Nginx serves the frontend application and acts as a reverse proxy, forwarding AP
 All services are containerized and orchestrated using Docker Compose.
 
 For more details, see the [System Architecture](docs/architecture.md).
+
+
+## Database Design
+
+PlanFlow uses PostgreSQL with four main entities: User, Project, Category, and Task.
+
+The relational schema uses foreign keys to maintain data integrity and define ownership between users, projects, and tasks.
+
+See the [Database ER Diagram](docs/database-erd.md) for the complete schema and relationships.
+
